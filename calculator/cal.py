@@ -10,7 +10,7 @@ def calculate(num1, num2, op):
     elif op == "/":
         if num2 == 0:
             return "Can't divide by zero!"
-        return a / b
+        return num1 / num2
     else:
         return "Invalid operation!"
 
